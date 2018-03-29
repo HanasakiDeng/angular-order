@@ -1,0 +1,113 @@
+body {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.color-blue {
+    color: rgb(63, 153, 247);
+}
+
+/****** ------登录界面----start---- ********/
+.login-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%) no-repeat;
+    background-size: 100% 100%;
+    padding-top: 20%;
+}
+
+.logo {
+    margin-top: -6%;
+}
+
+.login-panel {
+    box-shadow: 2px 2px 2px rgba(188, 232, 241, 0.4);
+    margin: auto auto;
+}
+
+@media screen and (min-width: 768px) {
+    .login-panel {
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .login-panel {
+        width: 23%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .login-panel {
+        width: 23%;
+    }
+}
+
+.forget-text {
+    min-height: 27px;
+    padding-top: 7px;
+}
+
+.forget-text > a {
+    text-decoration: none;
+    text-decoration: -moz-none;
+}
+
+/****** ------登录界面----end---- ********/
+
+/****** ------忘记密码----start---- ********/
+
+.forget-panel {
+    box-shadow: 2px 2px 2px rgba(188, 232, 241, 0.4);
+    margin: auto auto;
+}
+
+@media screen and (min-width: 768px) {
+    .forget-panel {
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .forget-panel {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .forget-panel {
+        width: 30%;
+    }
+}
+
+/****** ------忘记密码----end---- ********/
+
+/****** ------产品列表----start---- ********/
+ul li {
+    list-style: none;
+}
+
+.product-item {
+    border: 1px solid #e5e5e5;
+}
+
+.item-body {
+    padding: 20px 10px;
+}
+
+.item-body span {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.item-body span:first-child {
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(81, 195, 50);
+}
